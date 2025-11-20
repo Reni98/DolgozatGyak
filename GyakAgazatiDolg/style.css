@@ -1,1 +1,51 @@
+*{
+    color: white;
+    
+}
+
+body{
+   background-color: rgba(255, 193, 7, 1.0);
+}
+
+nav{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tartalom{
+    width: 80%;
+    background-color: #58506E;
+    margin: 0 auto;
+}
+
+h1,h2{
+    text-align: center;
+}
+h1:hover,h2:hover{
+    color: rgba(255, 193, 7, 1.0);
+}
+
+.kep{
+    width: 400px;
+}
+
+figure{
+    border: 1px solid black;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+table{
+    width: 800px;
+}
+
+#jobbkep{
+    float: right;
+}
+#balkep{
+    float: left;
+}
+
+
 
