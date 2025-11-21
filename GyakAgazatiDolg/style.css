@@ -1,12 +1,15 @@
 *{
     color: white;
+    font-family: 'Courier New', Courier, monospace;
     
 }
 
 body{
    background-color: rgba(255, 193, 7, 1.0);
 }
-
+figcaption{
+    font-weight: bold;
+}
 nav{
     width: 80%;
     margin: 0 auto;
@@ -27,6 +30,7 @@ h1:hover,h2:hover{
 
 .kep{
     width: 400px;
+    border-radius: 20px 20px 0 0;
 }
 
 figure{
@@ -34,10 +38,18 @@ figure{
     width: 400px;
     border-radius: 20px;
     text-align: center;
+    margin: 20px;
 }
 
 table{
-    width: 800px;
+    width: auto;
+    margin: 10px auto;
+    text-align: center;
+    
+}
+table th,td,tr{
+    border-bottom:1px solid white;
+    padding: 10px;
 }
 
 #jobbkep{
@@ -47,5 +59,26 @@ table{
     float: left;
 }
 
+footer{
+    background-color: #1A1A1A;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
 
+caption{
+    caption-side: top;
+    text-align: center;
+    color: white;
+}
 
+p{
+    text-align: justify;
+    margin: 10px;
+}
+
+span a{
+    text-decoration: none;
+    color: rgba(255, 193, 7, 1.0) ;
+    font-style: italic;
+}
